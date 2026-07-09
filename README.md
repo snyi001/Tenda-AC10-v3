@@ -13,9 +13,9 @@ Buffer Overflow vulnerability in Tenda AC10 v3 (firmware V03.03.16.09) allows at
 * **Vulnerability Type:** Post-Authentication Buffer Overflow (CWE-121 / CWE-122)
 * **Attack Vector:** `/cgi-bin/UploadCfg`
 * **Impact:** Permanent Denial of Service (Permanent DoS / Brick), Potential Remote Code Execution (RCE)
-* **Severity:** High (Estimated CVSS 3.1 Base Score: 8.2)
+* **Severity:** 
 * **Disclosure Status:** Published after a 60-day non-responsive period from the vendor/CNVD.
-
+* *CVE ID: ** Pending 
 ---
 
 ## Vulnerability Overview
@@ -91,7 +91,7 @@ Once the checksum validation succeeds, the parameters are sent to `FUN_80047190`
 
 ---
 
-## Proof of Concept (PoC) & Reproduction Steps
+## PoC & Reproduction Steps
 
 > **Disclaimer:** This details an unpatched vulnerability. Testing should only be performed on authorized hardware.
 

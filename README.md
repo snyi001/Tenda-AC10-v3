@@ -15,7 +15,7 @@ Buffer Overflow vulnerability in Tenda AC10 v3 (firmware V03.03.16.09) allows at
 * **Impact:** Permanent Denial of Service (Permanent DoS / Brick), Potential Remote Code Execution (RCE)
 * **Severity:** 
 * **Disclosure Status:** Published after a 60-day non-responsive period from the vendor/CNVD.
-* *CVE ID: ** Pending 
+* *CVE ID: ** CVE-2026-51380
 ---
 
 ## Vulnerability Overview
